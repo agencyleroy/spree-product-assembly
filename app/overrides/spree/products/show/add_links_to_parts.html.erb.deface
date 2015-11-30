@@ -1,5 +1,6 @@
-<!-- insert_after '#cart-form' -->
-<% if @product.parts.any?(&:in_stock?) %>
+<!-- insert_after '#cart-form' -->'
+<% if true == false %>
+<%# if @product.parts.any?(&:in_stock?) %>
 
   <h6><%= Spree.t(:parts_included) %></h6>
 
