@@ -1,4 +1,4 @@
-<!-- insert_after '#cart-form' -->'
+<!-- insert_after '#cart-form' -->
 <% if true == false %>
 <%# if @product.parts.any?(&:in_stock?) %>
 
